@@ -68,6 +68,10 @@ fn part2(){
             if same_in_a_row == 2 && curr != last { 
                 atleast_one_double = true;
             }
+
+            if same_in_a_row == 2 && i == 5 {
+                atleast_one_double = true;
+            }
             
             if curr != last {
                 same_in_a_row = 1;
